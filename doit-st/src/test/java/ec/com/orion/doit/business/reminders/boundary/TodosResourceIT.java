@@ -2,6 +2,7 @@ package ec.com.orion.doit.business.reminders.boundary;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertThat;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -9,7 +10,6 @@ import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import org.hamcrest.Matcher;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -34,8 +34,4 @@ public class TodosResourceIT {
 	}
 
 
-	private void assertThat(int status, Matcher<Integer> matcher) {
-		// TODO Auto-generated method stub
-		
-	}
 }
